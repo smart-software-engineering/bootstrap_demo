@@ -25,7 +25,7 @@ config :bootstrap_demo, BootstrapDemoWeb.Endpoint,
   debug_errors: true,
   secret_key_base: "rfwH+y6PF7dNBQ5eVuAxvfoqsqUcZQqINZMQby8MfYoCt2yBf4cQLry2eCKM0Okd",
   watchers: [
-    esbuild: {Esbuild, :install_and_run, [:bootstrap_demo, ~w(--sourcemap=inline --watch)]}
+    node: ["build.js", "--watch", cd: Path.expand("../assets", __DIR__)]
   ]
 
 # ## SSL Support
