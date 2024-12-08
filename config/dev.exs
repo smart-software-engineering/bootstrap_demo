@@ -23,7 +23,7 @@ config :bootstrap_demo, BootstrapDemoWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "6seEIO8TkBOfsMxx1vp/Afwtf7MpYaNxoRdthoV4n20BkrL2xYobdCLBktJMn4Ir",
+  secret_key_base: "rfwH+y6PF7dNBQ5eVuAxvfoqsqUcZQqINZMQby8MfYoCt2yBf4cQLry2eCKM0Okd",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:bootstrap_demo, ~w(--sourcemap=inline --watch)]}
   ]

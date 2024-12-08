@@ -17,7 +17,7 @@ config :bootstrap_demo, BootstrapDemo.Repo,
 # you can enable the server option below.
 config :bootstrap_demo, BootstrapDemoWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "AXHZNR9yBzd9I08NL1B6RTGJ1FMP/zZMtfOmLwYPOqnHb5vK0NnXYamMieAXO8ME",
+  secret_key_base: "bjo1RCV/aQF7uEH/LBBmRYWKShtojr62vZe538AVsPWem4qcFzeIYBcqrtF8LpKN",
   server: false
 
 # In test we don't send emails

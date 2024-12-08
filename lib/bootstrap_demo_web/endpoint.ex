@@ -7,7 +7,7 @@ defmodule BootstrapDemoWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_bootstrap_demo_key",
-    signing_salt: "2KCZAtNF",
+    signing_salt: "hiGD9CRq",
     same_site: "Lax"
   ]
 

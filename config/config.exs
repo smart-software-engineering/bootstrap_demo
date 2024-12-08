@@ -20,7 +20,7 @@ config :bootstrap_demo, BootstrapDemoWeb.Endpoint,
     layout: false
   ],
   pubsub_server: BootstrapDemo.PubSub,
-  live_view: [signing_salt: "Rgoqbjic"]
+  live_view: [signing_salt: "OKDHLNtD"]
 
 # Configures the mailer
 #
