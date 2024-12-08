@@ -18,6 +18,7 @@ defmodule BootstrapDemoWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/demo", BootstrapLive
   end
 
   # Other scopes may use custom stacks.
